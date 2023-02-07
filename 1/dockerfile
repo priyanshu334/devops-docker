@@ -1,0 +1,8 @@
+FROM python:latest
+
+LABEL version="0.0.1"
+LABEL maintainer="99priyanshu33@gmail.com"
+
+ADD main.py /
+
+CMD ["python","./index.py"]

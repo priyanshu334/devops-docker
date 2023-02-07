@@ -1,0 +1,12 @@
+version:'3' #specifies the compose file syntax versiom
+
+services: #services is the name for a container in the production
+  servicename:
+  image:
+  command:
+  enviroment:
+  volumes:
+
+
+volumes:#optional , MOunts a linked path on the host machine 
+networks: 
